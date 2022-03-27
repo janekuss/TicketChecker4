@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_scan_with_camera"
+        android:title="Skenēt ar kameru"
+        android:icon="@drawable/scan_with_camera"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_clear_list"
+        android:title="Attīrīt"
+        app:showAsAction="never">
+    </item>
+
+    <group android:id="@+id/toggle_group">
+        <item
+            android:id="@+id/action_toggle_sound"
+            android:title="toggle sound"
+            app:showAsAction="never">
+        </item>
+
+        <item
+            android:id="@+id/action_toggle_vibration"
+            android:title="toggle vibration"
+            app:showAsAction="never">
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Iestatījumi"
+        app:showAsAction="never">
+    </item>
+
+</menu>
